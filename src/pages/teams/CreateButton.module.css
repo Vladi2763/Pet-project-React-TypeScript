@@ -1,0 +1,15 @@
+.button {
+    height: 22px;
+    background-color: #E5E5E5;
+    font-size: 20px;
+    color: #5DCE5B;
+    position: absolute;
+    bottom: calc(100% + 8px);
+    right: 0px;
+    text-align: right;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}

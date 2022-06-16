@@ -1,0 +1,41 @@
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: hsl(234, 53%, 62%);
+    border-radius: 2px;
+    border: solid black 1px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 60px;
+    border-radius: 8px;
+    box-shadow:  4px 4px rgba(114, 66, 224, 0.25);
+}
+
+.cell:nth-child(2) {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.cell:nth-child(5) {
+    margin: 10px;
+}
+
+.cell:nth-child(8) {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.winner {
+    background-color: bisque;
+}
+
+@media (max-height: 859px) {
+    .cell {
+        width: 150px;
+        height: 150px;
+        font-size: 50px;
+    } 
+}

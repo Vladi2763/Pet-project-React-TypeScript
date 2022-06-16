@@ -1,0 +1,25 @@
+.containerMembers {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+.spanText {
+    position: absolute;
+    font-size: 20px;
+    line-height: 22px;
+    color: #A09E9E;
+    bottom: calc(100% + 8px);
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #C2C2C2;
+    overflow-y: auto;
+}
+

@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #BEDEDC;
+    min-height: 218px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.containerHeader {
+    display: flex;
+    width: 100%;
+}
+
+.containerHeader > table{
+    width: 240px;
+    height: 180px;
+    flex-shrink:0;
+    margin-right: 24px;
+    font-size: 12px;
+  }

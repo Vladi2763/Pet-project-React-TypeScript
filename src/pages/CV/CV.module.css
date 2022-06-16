@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Mulish-Italic';
+    src: url('../fonts/Mulish-VariableFont_wght.ttf') format("truetype");
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #1c173a;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    font-family: 'Mulish-Italic';
+    justify-content: space-between;
+    flex-direction: column;
+    width: 1200px;
+    height: 100%;
+    font-size: 1rem;
+    padding-top: 50px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.introductionContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.logo {
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+}
+
+.hello {
+    color: #F1F1F1;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.name {
+    color: #F1F1F1;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction {
+    display: flex;
+    color: #F1F1F1;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 25.1px;
+    margin: 0;
+}
+
+.annotation {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(191, 252, 204, 0) 0%, rgba(228, 228, 228, 0.33) 100%);
+    cursor: pointer;
+}
+
+.card span {
+    font-size: 30px;
+    color: #F4F4F4;
+}
+
+.gwint {
+    text-decoration: line-through;
+}
+
+.img {
+    width: 205px;
+    height: 170px;
+}
+
+.parag {
+    position: absolute;
+    top: 76px;
+    font-size: 20px;
+    line-height: 25.1px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.links a:nth-child(1) {
+    margin-right: 16px;
+}
+
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.links span {
+    color: #5b597f;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media (max-height: 799px) {
+    .logo {
+        width: 180px;
+        height: 180px;
+        border-radius: 100%;
+    }
+
+    .hello {
+        font-size: 25px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .introduction {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+
+    .parag {
+        font-size: 14px;
+    }
+
+    .img {
+        width: 160px;
+        height: 150px;
+    }
+}

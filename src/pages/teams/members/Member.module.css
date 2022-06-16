@@ -1,0 +1,49 @@
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 1px solid #C2C2C2;
+}
+
+.memberContainer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.memberContainer img {
+    width: 100px;
+    height: 100px;
+}
+
+.span {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.buttonDeleteMember {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #F27072;
+    border-radius: 8px;
+    background-image: url('/images/trash.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    border: none;
+}
+
+.buttonDeleteMember:hover {
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: #000854;
+}
+
+.highlight .span {
+    color: white;
+}

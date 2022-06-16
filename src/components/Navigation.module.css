@@ -1,0 +1,138 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 64px;
+    padding-left: 42px;
+    padding-right: 50px;
+    background-color: #393956;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: #393956;
+}
+
+.container {
+    display: flex;
+    width: 13%;
+    height: 100%;
+    align-items: center;
+}
+
+.linkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-grow: 1;
+}
+
+.linkContainer:first-child {
+    margin-right: 46px;
+}
+
+.linkContainer:nth-child(2) {
+    margin-right: 46px;
+}
+
+.linkContainer:nth-child(3) {
+    margin-right: 46px;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    height: 100%;
+    align-items: center;
+    border-bottom: 5px solid transparent;
+}
+
+.email {
+    display: flex;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.email div:hover {
+    color: #95bcf0;
+}
+
+
+.menu {
+    position: absolute;
+    top: 56px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+    height: 50px;
+    background-color: white;
+    border-radius: 4px;
+    background-image: url('/images/logout.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left 15px center;
+    box-shadow: 4px 4px 4px rgba(76, 77, 80, 0.5)
+}
+
+.menu a {
+    color: gray;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:active {
+    color: #e69318;
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid #95bcf0;
+}
+
+.nonActive {
+    display: flex;
+    justify-content: center;
+    width: 66px;
+    height:100%;
+}
+
+.container a:hover,
+.container a:active,
+.container a.active {
+    color: #95bcf0;
+    border-bottom: 5px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    width: 66px;
+}
+
+.arrow {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    transform: rotate(-45deg);
+    margin-left: 15px;
+}
+
+.arrowActive {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    transform: rotate(135deg);
+    margin-left: 15px;
+}
+

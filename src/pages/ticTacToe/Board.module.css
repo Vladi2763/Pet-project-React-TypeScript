@@ -1,0 +1,16 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 620px;
+    height: 620px;
+    box-sizing: border-box;
+}
+
+@media (max-height: 859px) {
+    .board {
+        width: 470px;
+        height: 470px;
+    }  
+}

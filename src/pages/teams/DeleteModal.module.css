@@ -1,0 +1,74 @@
+.modalUnderlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalWindow {
+    position: absolute;
+    width: 365px;
+    height: 225px;
+    background-color: white;
+    box-shadow: 0px 4px 20px 2px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+}
+
+.modalWindowHeader {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-left: 16px;
+    height: 60px;
+    background-color: #000854;
+}
+
+.modalWindowMain {
+    display: flex;
+    height: calc(100% - 60px - 16px);
+    position: relative;
+    padding-top: 16px;
+    padding-left: 16px;
+    flex-direction: column;
+}
+
+.modalWindowHeaderSpan {
+    font-size: 20px;
+    color: white;
+}
+
+.modalWindowClose {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 16px;
+    right: 16px;
+    background-image: url('/images/cross.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.modalWindowMainSpan {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: black;
+}
+
+.modalWindowButton {
+    width: 120px;
+    height: 40px;
+    background-color: #F27072;
+    font-size: 14px;
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    border: none;
+    cursor: pointer;
+}

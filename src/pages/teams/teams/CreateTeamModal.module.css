@@ -1,0 +1,90 @@
+
+.modalWindow {
+    position: absolute;
+    width: 365px;
+    height: 225px;
+    background-color: white;
+    box-shadow: 0px 4px 20px 2px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+}
+
+.modalWindowHeader {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-left: 16px;
+    height: 60px;
+    background-color: #000854;
+}
+
+
+.modalWindowHeader span{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.modalWindowHeader img{
+    background-image: url('/images/cross.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 16px;
+    right: 16px;
+}
+
+.modalWindowMain {
+    display: flex;
+    height: calc(100% - 60px - 16px);
+    position: relative;
+    padding-top: 16px;
+    padding-left: 16px;
+    flex-direction: column;
+}
+
+.modalWindowMain span{
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #000000;
+}
+
+.modalWindowMain input{
+    width: 332px;
+    height: 26px;
+    box-sizing: border-box;
+    padding-left: 34px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #C6C6C6;
+    border-radius: 8px;
+    color: #C6C6C6;
+    font-size: 14px;
+}
+
+.modalWindowMain button{
+    width: 120px;
+    height: 40px;
+    background-color: #5DCE5B;
+    font-size: 14px;
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    border:none;
+    cursor: pointer;
+}
+
+.modalUnderlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
