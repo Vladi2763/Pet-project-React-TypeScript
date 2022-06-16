@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Pet-project-React-TypeScript/static/css/main.846f49f5.css",
+    "main.js": "/Pet-project-React-TypeScript/static/js/main.dd1ba9fa.js",
+    "static/media/Mulish-VariableFont_wght.ttf": "/Pet-project-React-TypeScript/static/media/Mulish-VariableFont_wght.bcafeb0fadf20710b1c6.ttf",
+    "static/media/trash.svg": "/Pet-project-React-TypeScript/static/media/trash.b3d468b973444e383dad.svg",
+    "index.html": "/Pet-project-React-TypeScript/index.html",
+    "static/media/cross.svg": "/Pet-project-React-TypeScript/static/media/cross.c11f2a92b72e27d2fcfd.svg",
+    "main.846f49f5.css.map": "/Pet-project-React-TypeScript/static/css/main.846f49f5.css.map",
+    "main.dd1ba9fa.js.map": "/Pet-project-React-TypeScript/static/js/main.dd1ba9fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.846f49f5.css",
+    "static/js/main.dd1ba9fa.js"
+  ]
+}
