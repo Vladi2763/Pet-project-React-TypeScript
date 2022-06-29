@@ -13,3 +13,19 @@
 .button:hover {
     cursor: pointer;
 }
+
+@media(max-width: 899px) {
+    .button {
+        height: 12px;
+        font-size: 12px;
+        bottom: calc(100% + 4px);
+    }
+}
+
+@media (max-width: 520px) {
+    .button {
+        height: 12px;
+        font-size: 12px;
+        bottom: calc(100% + 4px);
+    }
+}

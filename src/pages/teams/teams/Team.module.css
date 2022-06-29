@@ -62,3 +62,44 @@
 .highlight .teamName {
     color: white;
 }
+
+@media (max-width: 899px) {
+    .containerText {
+        margin-left: 15px;
+    }
+
+    .buttonDeleteTeam {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 520px) {
+    .team {
+        padding-left: 8px;
+        height: 80px;
+    }
+
+    .containerText {
+        margin-left: 10px;
+    }
+
+    .teamName {
+        font-size: 14px;
+        line-height: 12px;
+    }
+    
+    .dateCreating {
+        font-size: 10px;
+    }
+
+    .imageTeam {
+        width: 40px;
+        height: 40px;
+    }
+
+    .buttonDeleteTeam {
+        width: 20px;
+        height: 20px;
+    }
+}

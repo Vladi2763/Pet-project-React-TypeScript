@@ -55,8 +55,24 @@ const Navigation = () => {
                     <div className={isClicked ? classes.arrowActive : classes.arrow}>
                     </div>
                 </div>
+                <div id='menuMobile' className={classes.emailMobile} onClick={menuClickHandler}>
+                    <div className={classes.emailMobileContainer}>
+                        {email}
+                        <div className={isClicked ? classes.arrowActive : classes.arrow}></div>
+                    </div>
+                </div>
             </nav>
             {isClicked && <div className={classes.menu}><Link to='/' onClick={logoutHandler}>Log Out</Link></div>}
+            {isClicked && (<div className={classes.menuMobile}>
+                <div ><Link to='/grid' >Grid</Link></div>
+                <div ><Link to='/teams' >Teams</Link></div>
+                <div ><Link to='/tictactoe' >TicTacToe</Link></div>
+                <div ><Link to='/About' >About me</Link></div>
+                <div className={classes.menuMobileLogout}>
+                    <img src={`/assets/logout.png`} alt='grid'></img>
+                    <div ><Link to='/' onClick={logoutHandler}>Log Out</Link></div>
+                </div>
+            </div>)}
         </div>
     )
 }

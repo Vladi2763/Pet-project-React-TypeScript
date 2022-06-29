@@ -47,3 +47,45 @@
 .highlight .span {
     color: white;
 }
+
+@media (max-width: 899px) {
+    .span {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .memberContainer img {
+        width: 80px;
+        height: 100px;
+    }
+
+    .buttonDeleteMember {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 520px) {
+    .memberContainer {
+        height: 80px;
+    }
+
+    .member {
+        height: 80px;
+    }
+
+    .span {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .memberContainer img {
+        width: 70px;
+        height: 80px;
+    }
+
+    .buttonDeleteMember {
+        width: 20px;
+        height: 20px;
+    }
+}

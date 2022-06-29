@@ -12,5 +12,19 @@
     .board {
         width: 470px;
         height: 470px;
-    }  
+    }
+}
+
+@media (min-width: 421px) and (max-width:699px) {
+    .board {
+        width: 410px;
+        height: 410px;
+    }
+}
+
+@media (max-width: 420px) {
+    .board {
+        width: 320px;
+        height: 320px;
+    }
 }

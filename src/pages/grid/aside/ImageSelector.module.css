@@ -18,3 +18,19 @@
     width: 100%;
     height: 218px;
 }
+
+@media (max-width: 899px) {
+    .form select {
+        width: 260px;
+    }
+}
+
+@media (max-width: 520px) {
+    .form select {
+        width: 180px;
+    }
+
+    .choose {
+        padding: 10px;
+    }
+}

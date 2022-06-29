@@ -23,3 +23,21 @@
     overflow-y: auto;
 }
 
+@media(max-width: 899px) {
+    .spanText {
+        height: 12px;
+        line-height: normal;
+        font-size: 12px;
+        bottom: calc(100% + 4px);
+    }
+}
+
+@media (max-width: 520px) {
+    .spanText {
+        height: 12px;
+        line-height: normal;
+        font-size: 12px;
+        bottom: calc(100% + 4px);
+    }
+}
+

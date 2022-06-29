@@ -23,3 +23,33 @@
     border: 1px solid #C2C2C2;
     overflow-y: auto;
 }
+
+@media (max-width: 899px) {
+    .containerTeams {
+        min-width: 220px;
+        width: 280px;
+        margin-right: 20px;
+    }
+
+    .spanTeams {
+        height: 12px;
+        line-height: normal;
+        font-size: 12px;
+        bottom: calc(100% + 4px);
+    }
+}
+
+@media (max-width: 520px) {
+    .containerTeams {
+        min-width: 150px;
+        width: 180px;
+        margin-right: 20px;
+    }
+
+    .spanTeams {
+        height: 12px;
+        line-height: normal;
+        font-size: 12px;
+        bottom: calc(100% + 4px);
+    }
+}

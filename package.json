@@ -1,7 +1,6 @@
 {
   "name": "grid",
   "version": "0.1.0",
-  "homepage": "https://Vladi2763.github.io/Pet-project-React-TypeScript",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",

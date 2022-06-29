@@ -159,6 +159,11 @@
 }
 
 @media (max-height: 799px) {
+
+    .header {
+        align-items: center;
+    }
+
     .logo {
         width: 180px;
         height: 180px;
@@ -189,5 +194,73 @@
     .img {
         width: 160px;
         height: 150px;
+    }
+}
+
+@media (max-width: 1049px) {
+
+    .header {
+        align-items: center;
+    }
+
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .introductionContainer {
+        margin-left: 16px;
+    }
+
+
+    .section {
+        justify-content:space-around;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .annotation {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        width: 160px;
+        height: 160px;
+    }
+
+    .introductionContainer {
+        margin-left: 16px;
+    }
+
+    .hello {
+        font-size: 20px;
+    }
+    
+    .name {
+        font-size: 18px;
+    }
+    
+    .introduction {
+        font-size: 16px;
+    }
+
+    .annotation {
+        font-size: 20px;
+    }
+
+    .section {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .card span {
+        font-size: 24px;
     }
 }

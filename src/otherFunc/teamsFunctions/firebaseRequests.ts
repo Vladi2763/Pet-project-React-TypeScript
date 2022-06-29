@@ -22,7 +22,6 @@ class Requests {
         return fetch(`https://petproject-aa1ae-default-rtdb.firebaseio.com/teams/${data.teamId}.json`, {
             method: 'DELETE',
         }).then(res => {
-            console.log(res)
             return res;
         })
     }
@@ -88,7 +87,6 @@ class Requests {
         return fetch(`https://petproject-aa1ae-default-rtdb.firebaseio.com/teams/${data.teamId}/members/${data.memberId}.json`, {
             method: 'DELETE'
         }).then(res => {
-            console.log(res)
             return res;
         })
     }

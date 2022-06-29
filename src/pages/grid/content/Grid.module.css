@@ -36,3 +36,17 @@ td {
         height: 400px;
     }
 }
+
+@media(max-width: 899px) {
+    .container {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 520px) {
+    .container {
+        width: 200px;
+        height: 200px;
+    }
+}
